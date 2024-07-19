@@ -32,7 +32,11 @@ module.exports = {
     "no-multiple-empty-lines": ["error", { max: 1 }], // 不允许多个空行
     "prefer-const": "off", // 使用 let 关键字声明但在初始分配后从未重新分配的变量，要求使用 const
     "no-use-before-define": "off", // 禁止在 函数/类/变量 定义之前使用它们
-
+    "no-unused-vars": "off", // 未定义的变量警告
+    "no-debugger": "warn", // debugger 调试警告
+    eqeqeq: "warn", // 非三等警告
+    "no-useless-escape": "off",
+    
     // typeScript (https://typescript-eslint.io/rules)
     "@typescript-eslint/no-unused-vars": "error", // 禁止定义未使用的变量
     "@typescript-eslint/no-empty-function": "error", // 禁止空函数
@@ -57,5 +61,8 @@ module.exports = {
     "vue/require-default-prop": "off", // 此规则要求为每个 prop 为必填时，必须提供默认值
     "vue/multi-word-component-names": "off", // 要求组件名称始终为 “-” 链接的单词
     "vue/no-setup-props-destructure": "off" // 禁止解构 props 传递给 setup
+    "vue/prefer-import-from-vue": "off", // 允许使用 @vue/shared
+    "vue/v-on-event-hyphenation": "off", // 对模板中的自定义组件实施 v-on 事件命名样式, 不要求必须 <MyComponent @custom-event="handleEvent" />， <MyComponent @customEvent="handleEvent" /> 也可以
+    "vue/one-component-per-file": "off" // 关闭一个文件中只允许有一个组件
   }
 };
