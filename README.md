@@ -29,8 +29,6 @@ Vue3-Admin 一款基于 Vue3.4、TypeScript、Vite5、Pinia、Element-Plus 开�
 - **Clone：**
 
 ```text
-# Gitee
-git clone https://github.com/yanyue404/vue3-admin.git
 # GitHub
 git clone https://github.com/yanyue404/vue3-admin.git
 ```
